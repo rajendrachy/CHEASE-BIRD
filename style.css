@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+
+#chessboard {
+    display: grid;
+    gap: 20px;
+    background-color: #000;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cell.white {
+    background-color: #fff;
+}
+
+.cell.black {
+    background-color: #000;
+    color: #fff;
+}
